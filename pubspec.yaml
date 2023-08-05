@@ -1,7 +1,6 @@
 name: wakeup_scheduler
 description: A new Flutter plugin project.
 version: 0.0.1
-homepage:
 
 environment:
   sdk: '>=3.1.0-4.0.dev <4.0.0'
@@ -13,6 +12,7 @@ dependencies:
   plugin_platform_interface: ^2.0.2
   android_alarm_manager_plus: ^2.1.2
   android_intent_plus: ^3.1.9
+  package_info_plus: ^4.1.0
 
 dev_dependencies:
   flutter_test:

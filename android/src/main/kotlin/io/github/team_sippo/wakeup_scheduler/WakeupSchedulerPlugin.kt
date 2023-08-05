@@ -91,7 +91,7 @@ class WakeupSchedulerPlugin: FlutterPlugin, EventChannel.StreamHandler, MethodCa
       if ("text/plain" == type) {
         android.util.Log.d(LOG_TAG, "onCreate: intent get")
         // var tag: String? = intent.getStringExtra(Intent.EXTRA_TEXT)
-        var tag: String? = intent.getStringExtra("extra1")
+        var tag: String? = intent.getStringExtra("wakeup_tag")
         if(tag == null){
           tag = ""
         }
