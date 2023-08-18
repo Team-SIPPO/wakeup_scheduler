@@ -63,6 +63,7 @@ class WakeupScheduler {
       wakeup: true,
       exact: true,
       rescheduleOnReboot: true,
+      params: params
     );
     return ;
   }
